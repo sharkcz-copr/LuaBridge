@@ -1,5 +1,5 @@
 Name:           LuaBridge
-Version:        2.8
+Version:        2.9
 Release:        1%{?dist}
 Summary:        Bridge between C++ and Lua
 
@@ -46,6 +46,9 @@ cp -a Source/%{name} %{buildroot}/%{_includedir}
 
 
 %changelog
+* Mon Mar 17 2025 Dan Horák <dan@danny.cz> - 2.9-1
+- updated to 2.9
+
 * Thu Feb 16 2023 Dan Horák <dan@danny.cz> - 2.8-1
 - updated to 2.8
 
